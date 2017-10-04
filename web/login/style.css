@@ -1,0 +1,28 @@
+.login-form {
+    background: #009688;
+    width:400px;
+    align-content: center;
+    display: inline-block;
+    text-align: center;
+}
+
+.login-form-input {
+    align-content: center;
+    height: 25px;
+    margin: 5px;
+    margin-top: 0px;
+}
+
+.login-form-button {
+    background: #4DB6AC;
+}
+
+h5 {
+    text-align: center;
+    font-family: Roboto;
+    color: #E0F2F1;
+    padding: 5px;
+    margin:5px;    
+    margin-top:10px;
+    font-size: 20px;
+}
