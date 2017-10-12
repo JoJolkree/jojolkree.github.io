@@ -1,0 +1,26 @@
+td {
+    width: 116px;
+    text-align: center;
+    padding: 0;
+    border: solid white 0;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+td > span:first-child {
+    display: block;
+    height: 35px;
+    background: #0097B9;
+    font: 1.5em "Noto Sans";
+    color: #fff;
+}
+
+td > span:last-child {
+    font: 1.8em "Noto Sans";
+}
+
+td:hover {
+    box-shadow: 1px 0 5px 0 rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}

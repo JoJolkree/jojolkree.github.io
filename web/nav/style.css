@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0.5em;
+}
+
+ul {
+    overflow: hidden;
+    list-style: none;
+    border-radius: 0 1em 1em 0;
+    background: #D3DDB5;
+    padding-left: 10px;
+    background: linear-gradient(to bottom, #FCFDFA 0%, #B0C17A 100%);
+}
+
+li {
+    display: inline-block;
+    padding: 0 1em;
+    border-right: 
+}
