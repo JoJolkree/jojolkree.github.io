@@ -1,0 +1,16 @@
+.portrait {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.sprite_facebook {
+    width: 55px;
+    height: 54px;
+    float: left;
+    background-position: -80px -96px;
+    background: url("images/sprites.png");    
+}

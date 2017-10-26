@@ -1,0 +1,41 @@
+html, body {
+    background: url(img0.jpg) repeat-y center top;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.layout {
+    width: 760px;
+    margin: 0 auto;
+    text-align: justify;
+    margin: 0 auto;
+    color: #0D47A1;
+    font-family: roboto;
+}
+
+.wrap {
+    padding: 20px;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -20px;
+}
+
+.buffer {
+    height: 20px;
+}
+
+.header {
+    color: #E3F2FD;
+    background: #2962FF;
+    font-family: roboto;
+}
+
+.footer {
+    color: #E3F2FD;
+    background: #2962FF;
+    font-family: roboto;
+    height: 20px;
+}
