@@ -274,9 +274,9 @@ body {
 
     .card-form {
         display: block;
-        width: 80%;
+        width: 100%;
         max-width: none;
-        margin: 50px 50px 50px 50px;
+        /* margin: 50px 50px 50px 50px; */
     }
 
     .right-form-block {
