@@ -1,9 +1,34 @@
 <html>
     <head>
-        <script>
-            alert(document.nodeName);
-            alert(document.firstChild.nodeName);
-            alert(document.firstChild.childNodes.length); // выводит 1
+        <script type="text/javascript">
+            function create_table (){
+                var table, row, data, text, attr;
+                table=document.createElement("table");
+                // работа с атрибутами. Способ 1 (только HTML)
+                table.border=1;
+                // работа с атрибутами. Способ 2 (HTML/XML)
+                table.setAttribute("id","tbl02");
+                // работа с атрибутами. Способ 3 (DOM1)
+                attr=document.createAttribute("cellSpacing");
+                attr.nodeValue=0;
+                table.attributes.setNamedItem(attr);
+                for (i in screen) {
+                    row=document.createElement("tr");
+                    //способ 1 (XML/HTML)
+                    data=document.createElement("td");
+                    text=document.createTextNode(i);//"A"=65
+                    data.appendChild(text);
+                    row.appendChild(data);
+                    //способ 2 (HTML)
+                    data=document.createElement("td");
+                    data.innerText=screen[i];
+                    row.appendChild(data);
+                    table.appendChild(row);
+                }
+                document.body.appendChild(table);
+            }
         </script>
     </head>
+    <body onload="create_table()">
+    </body>
 </html>
