@@ -277,7 +277,7 @@ body {
         display: block;
         width: 100%;
         max-width: none;
-        /* margin: 50px 50px 50px 50px; */
+        margin: 20px 20px 20px 20px;
     }
 
     .right-form-block {
