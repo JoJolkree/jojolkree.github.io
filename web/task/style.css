@@ -9,6 +9,8 @@ h2 {
 
 body {
     /* min-width: 400px; */
+    width: 100%;
+    /* min-width: 500px; */
     max-width: 1200px;
     margin: auto;
     padding: 20px;
@@ -270,14 +272,16 @@ body {
 @media screen and (max-device-width: 930px) 
 {
     body {
-        margin: 20px;
+        /* margin: 20px; */
     }
 
     .card-form {
         display: block;
-        width: 100%;
+        width: 90%;
+        /* max-width: 450px; */
         max-width: none;
-        margin: 20px 20px 20px 20px;
+        /* margin: 20px 20px 20px 20px; */
+        margin: 10px;
     }
 
     .right-form-block {
@@ -291,15 +295,15 @@ body {
         margin: 7%;
     }
 
+    .card-logo {
+        width: 10%;
+    }
+
 }
 
 @media screen and (max-device-width: 500px)
 {
     .comments-right-block {
         width: 100%;
-    }
-
-    .card-logo {
-        max-width: 40px;
     }
 }
