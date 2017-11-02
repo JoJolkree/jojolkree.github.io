@@ -8,6 +8,7 @@ h2 {
 }
 
 body {
+    min-width: 400px;
     max-width: 1200px;
     margin: auto;
     padding: 20px;
@@ -296,5 +297,9 @@ body {
 {
     .comments-right-block {
         width: 100%;
+    }
+
+    .card-logo {
+        max-width: 40px;
     }
 }
