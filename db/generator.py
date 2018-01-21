@@ -25,7 +25,7 @@ for i in imgs:
     ticket = int(i.split('.')[0])
     text = names[ticket - 1].replace('\n', '')
     with open('html/' + str(ticket) + '.htm', 'a', encoding='utf-8') as f:
-        f.write('<img src="../Images/' + i + '" width="100%" />')
+        f.write('<img src="../Images/' + i + '" width="100%" />\n')
     if ticket not in tickets:
         index.write('\t\t<a href="html/' + str(ticket) + '.htm">' + text + '</a><br />\n')
         tickets.append(ticket)
